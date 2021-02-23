@@ -1,5 +1,5 @@
 import React from 'react';
-import onesix from '../../images/icons/logo-sm.png';
+import onesix from '../../images/icons/16.png';
 
 function Footer() {
     return (
@@ -116,7 +116,7 @@ function Footer() {
 					<ul>
 						<li><a href="#">Privacy Policy</a></li>
 						<li><a href="#">Terms of Use</a></li>
-						<li><a href="#">Sales and Refunds</a></li>
+						<li><a href="#">Sales and Refunds </a></li>
 						<li><a href="#">Legal</a></li>
 						<li><a href="#">Site Map</a></li>
 					</ul>
