@@ -16,15 +16,15 @@ function Nav() {
 
 			    <div className="navbar-collapse collapse">
 			        <ul className="navbar-nav nav-justified w-100 nav-fill">
-						<Pp name="Mac" />
-						<Pp name="iphone"/>
-						<Pp name="ipod"/>
-						<Pp name="Watch"/>
-						<Pp name="Tv"/>
-						<Pp name="Music"/>
-						<Pp name="Support"/>
-						<Pp acart={search}/>
-						<Pp acart={cart}/>
+						<Pp name="Mac" lk="./mac" />
+						<Pp name="iphone" lk="./iphone" />
+						<Pp name="ipod" lk="./ipod" />
+						<Pp name="Watch" lk="./watch" />
+						<Pp name="Tv" lk="./tv" />
+						<Pp name="Music" lk="./music" />
+						<Pp name="Support" lk="./support" />
+						<Pp acart={search} lk="./search" />
+						<Pp acart={cart} lk="./cart" />
 			        </ul>
 			    </div>
 			</nav>

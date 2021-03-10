@@ -5,7 +5,7 @@ function Videos() {
 
   useEffect(() => {
     fetch(
-      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCVLXBVswBXcjyApYETuCNYKZHUa8vO7VU&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=12"
+      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCVLXBVswBXcjyApYETuCNYKZHUa8vO7VU&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=9"
     )
 
     .then((response) => response.json())
@@ -20,7 +20,7 @@ function Videos() {
         <div className="row justify-content-center text-center">
           <div className="col-12">
             <div className="title-wraper">
-              Latest Videos <br />
+              Latest Apple Videos <br />
               <br />
             </div>
           </div>
@@ -57,3 +57,4 @@ function Videos() {
 }
 
 export default Videos;
+

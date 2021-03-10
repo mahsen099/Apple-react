@@ -10,6 +10,7 @@ import Main4 from './Component/Main4/Main4';
 import Main5 from './Component/Main5/Main5';
 import Main6 from './Component/Main6/Main6';
 import Videos from './Component/Videos/Videos';
+import News from './Component/News/News';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       <Main5 />
       <Main6 />
       <Videos />
+      <News />
       <Footer />
+      
     </div>
   );
 }

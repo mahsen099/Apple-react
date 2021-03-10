@@ -1,0 +1,27 @@
+.allnewsWrapper {
+  background: •#fff;
+  padding: 50px;
+}
+
+.singlenewsWrapper {
+  box-shadow: 4px 0px 13px rgba(158, 158, 158, 0.12);
+  margin-bottom: 30px;
+  max-height: 393px;
+  overflow: hidden;
+  background-color: black;
+}
+.newsInfoWrapper {
+  padding: 10px 20px;
+  text-align: left;
+}
+.newsTitle {
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.newsTitle a {
+  color: #000;
+}
+.newsThumbnail img{
+    height: 200px;
+    
+}
