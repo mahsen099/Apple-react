@@ -1,5 +1,7 @@
 import React from 'react';
 import onesix from '../../images/icons/16.png';
+import $ from 'jquery';
+import '../../custom/custom'
 
 function Footer() {
     return (
